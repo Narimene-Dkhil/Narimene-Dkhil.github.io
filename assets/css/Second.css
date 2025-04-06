@@ -1,0 +1,138 @@
+/* Icons */
+
+.icon {
+    text-decoration: none;
+    text-decoration: none;
+}
+
+    .icon:before {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        text-transform: none !important;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 400;
+    }
+
+    .icon:before {
+        font-size: 1.25em;
+    }
+
+    .icon > .label {
+        display: none;
+    }
+
+    .icon.solid:before {
+        font-weight: 900;
+    }
+
+    .icon.brands:before {
+        font-family: 'Font Awesome 5 Brands';
+    }
+
+    .icon.featured {
+        color: #EA8A95;
+        display: block;
+        margin: 0 0 1.5em 0;
+        cursor: default;
+    }
+
+        .icon.featured:before {
+            font-size: 6em;
+        }
+
+
+
+        .icon1 {
+            display: block; /* Ensures it's centered like the span */
+            width: 200px; /* Adjust the size to match the icon size */
+            height: auto; /* Maintains aspect ratio */
+            margin: 0 auto 1.5em auto; /* Centers the image and adds spacing */
+            cursor: default;
+            border-radius: 50%;
+        }
+
+
+        .box.style1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-height: 250px; /* Adjust height as needed */
+            padding: 20px;
+        }
+        
+        /* Style for the icons to be uniform */
+        .icon1 {
+            width: 200px;  /* Ensure uniform width */
+            height: 200px; /* Ensure uniform height */
+            object-fit: contain; /* Ensures the full logo is visible */
+            background-color: white; /* Match other icons */
+            border-radius: 0%; /* Circular background */
+            padding: 10px; /* Space inside the background */
+            margin-bottom: 15px;
+        }
+        
+        /* Ensure all sections inside the row are equal */
+        .row .col-4 {
+            display: flex;
+            align-items: stretch;
+        }
+
+        /* Image anchor styling */
+        section.box.style1 a img.icon1 {
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            display: block;
+        }
+
+        section.box.style1 a:hover img.icon1 {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        section.box.style1 a {
+            text-decoration: none;
+            color: #212529 !important; /* White text for contrast */
+            background-color: white; /* Darker blue-gray, darker than a light background */
+            padding: 10px 20px;        /* Vertical and horizontal padding for button shape */
+            border-radius: 10px;        /* Rounded corners, Miniport-style */
+            display: inline-block;     /* Ensures padding and dimensions apply properly */
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; /* Smooth transitions */
+        }
+        
+        section.box.style1 a:hover {
+            transform: scale(1.05);
+            background-color: white; /* Red on hover */
+            color: #DAA520 !important; /* Keep text white on hover */
+        }
+
+        section.box.style1 a img.icon1 {
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            display: block;
+        }
+        
+        section.box.style1 a:hover img.icon1 {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+        
+                    /* Make project images behave like tech icons on hover */
+        .icon1 {
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .icon1:hover {
+            transform: scale(1.2);
+        }
