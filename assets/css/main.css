@@ -1505,6 +1505,72 @@ input, select, textarea {
 
 		}
 
+		.skills-grid {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 2rem;
+		}
+		
+		.skills-grid .col-4 {
+			flex: 1 1 calc(45% - 2rem);
+			max-width: calc(45% - 2rem);
+			box-sizing: border-box;
+		}
+		
+		@media (max-width: 768px) {
+			.skills-grid .col-4 {
+				flex: 1 1 100%;
+				max-width: 100%;
+			}
+		}
+		
+
+		.row.aln-center {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		
+		.row.aln-center .col-4 {
+			display: flex;
+			flex-direction: column;
+		}
+		
+		.row.aln-center .box {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.col-4 {
+			display: flex;
+			flex: 1 0 30%; 
+		}
+
+		.box {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			flex: 1;
+		}
+
+		.box img.icon1 {
+			max-height: 150px;  
+			width: 240px;
+			margin: 0 auto 1rem auto;
+			display: block;
+			object-fit: contain;
+		}
+
+		
+
 /* Form */
 
 	form label {
@@ -1888,6 +1954,8 @@ input, select, textarea {
 			margin: -4em 0 4em -4em;
 			width: auto;
 		}
+		
+
 
 /* === Core Image Icon Style (Used in Both Sections) === */
 
@@ -1938,6 +2006,11 @@ input, select, textarea {
 		background-color: white;
 		color: #DAA520 !important;
 	}
+	section.box.style1 h3:hover {
+		color: #43B3E0; /* Yellow color on hover */
+		transition: color 0.3s ease;
+	}
+	
 
 	.qr-code {
 		display: block;
@@ -2023,6 +2096,16 @@ input, select, textarea {
 			background-color: #303030;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
+		}
+
+		.wrapper.style5 {
+			background-color: #ededed;
+			text-shadow: 1px 1px 0px #fff;
+		}
+
+		.wrapper.style6 {
+			background-color: #e5e5e5;
+			text-shadow: 1px 1px 0px #fff;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
