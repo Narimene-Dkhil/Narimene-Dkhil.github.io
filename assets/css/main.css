@@ -3179,4 +3179,17 @@ input, select, textarea  {
 			}
 		}
 	
-	
+		
+		/* h3 a::after {
+			content: " (Click here)";
+			font-size: 0.75em;
+			color: gray;
+			opacity: 0;
+			transition: opacity 0.3s ease;
+		}
+		
+		h3 a:hover::after {
+			opacity: 1;
+		} */
+		
+		
