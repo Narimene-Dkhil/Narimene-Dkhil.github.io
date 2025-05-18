@@ -3322,3 +3322,25 @@ input, select, textarea  {
     object-position: center;
     border-radius: 10px;
 }
+
+/* .visit-counter {
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	opacity: 0.9;
+}
+
+.visit-counter a {
+	text-decoration: none;
+}
+
+.visit-counter .counter-img {
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.visit-counter .counter-img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+} */
